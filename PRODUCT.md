@@ -39,13 +39,15 @@ A personal portfolio for Himanshu Gautam, a Brooklyn-based actor. Its job is to 
 
 - **Name:** Himanshu Gautam. Based in Brooklyn, NY.
 - **Voice:** playful and funny; his comedic personality should come through in the copy (for example "Podcast Ringleader"), while staying credible to casting professionals.
+- **Artist name (music):** Himmy G.
+- **Home headline:** "One actor. Every stage." (chosen by Himanshu).
 - **Podcast name:** Yappy Yaar (film and entertainment criticism).
 
 ## Evidence on Hand
 
 - **Headshots:** `img/headshot-lead.jpg`, `img/headshot-candid.jpg`, and `img/headshot-posed.jpg`. All are the same purple paisley shirt and setup. A new face-forward headshot is planned.
 - **Desi SNL (verified facts on `theater.html`):** recurring cast member. Episode 1 at Balance Arts Center (Nov 13–14, 2025); Episode 2 at The Wild Project (Apr 2026), credited on the site with NYC Fringe Festival "Top Grossing" and "Outstanding Ensemble"; Episode 3 at SoHo Playhouse (Aug 2026). 10 sold-out shows, 1,100+ audience members, 19 original sketches. Created and directed by Azhar Bande-Ali. Official site desisnl.com.
-- **Music:** "Turkey," an original comedy rap released with Desi SNL in September 2025. Himanshu co-wrote it and performs lead vocals and rap. It's on all major streaming platforms (Spotify, Apple Music, Amazon Music, YouTube Music), and there's a full music video at https://www.youtube.com/watch?v=vuq2VtYZVGA. Also on-camera footage, so useful to casting until the demo reel exists.
+- **Music:** "Turkey," an original comedy rap released with Desi SNL on September 25, 2026. Himanshu co-wrote it and performs lead vocals and rap under his artist name, **Himmy G**. It's on all major streaming platforms (Spotify, Apple Music, Amazon Music, YouTube Music), and there's a full music video at https://www.youtube.com/watch?v=vuq2VtYZVGA. Also on-camera footage, so useful to casting until the demo reel exists.
 - **Film:** *Bindi* on Vimeo (role, director, and year still to be filled in).
 - **Not yet available (do not fabricate):** demo reel, other film credits, modeling photos and specs, podcast episodes and platform links, training credits, bio in his own voice, real email and Instagram, representation, press, and testimonials.
 
