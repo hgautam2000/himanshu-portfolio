@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About — Himanshu Gautam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>:root{padding-block:env(safe-area-inset-top,0px) env(safe-area-inset-bottom,0px);} body{background:var(--bg);}</style>
+</head>
+<body>
+<nav class="marquee-bar">
+  <div class="marquee-inner">
+    <a class="brand" href="index.html">HIMANSHU <span>GAUTAM</span></a>
+    <ul class="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="theater.html">Theater</a></li>
+      <li><a href="films.html">Short Films</a></li>
+      <li><a href="modeling.html">Modeling</a></li>
+      <li><a href="podcast.html">Podcast</a></li>
+      <li><a href="about.html" aria-current="page">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">Curtain Call</p>
+    <h1>About <span class="accent">Me.</span></h1>
+  </section>
+
+  <section class="section">
+    <div class="bio-grid">
+      <div>
+        <p class="eyebrow">Bio</p>
+        <p>Himanshu Gautam is a Brooklyn-based actor, comedian, and podcaster. He performs sketch comedy with Desi SNL, co-runs the film-and-entertainment podcast Yappy Yaar, and works across theater, short film, and print.</p>
+        <p>[Replace this paragraph with your own voice &mdash; a line on your training, what draws you to a role, and what you're looking to book next.]</p>
+      </div>
+      <div>
+        <img class="portrait" src="img/headshot-lead.jpg" alt="Himanshu Gautam laughing, arms crossed, wearing a purple paisley shirt.">
+        <p class="portrait-caption">Headshot &mdash; new face-forward shot coming soon</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="eyebrow">Gallery</p>
+    <h2>A couple more</h2>
+    <div class="portrait-row">
+      <div class="portrait-item">
+        <img class="portrait" src="img/headshot-candid.jpg" alt="Himanshu Gautam laughing candidly, arms crossed, wearing a purple paisley shirt.">
+        <p class="portrait-caption">Candid</p>
+      </div>
+      <div class="portrait-item">
+        <img class="portrait" src="img/headshot-posed.jpg" alt="Himanshu Gautam smiling, arms crossed, wearing a purple paisley shirt.">
+        <p class="portrait-caption">Posed</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="eyebrow">Quick Facts</p>
+    <ul class="credit-list">
+      <li><span>Based in</span><span class="role">Brooklyn, NY</span></li>
+      <li><span>Repped by</span><span class="role">[Agency / Unrepped]</span></li>
+      <li><span>Reel</span><span class="role"><a href="films.html" style="color:var(--pop);">See films &rarr;</a></span></li>
+    </ul>
+  </section>
+
+  <div class="stub-divider" role="presentation"></div>
+
+  <section class="section">
+    <p class="eyebrow">Get in Touch</p>
+    <h2>Contact</h2>
+    <div class="contact-box">
+      <p class="muted" style="margin-top:0;">For bookings, casting, or collabs &mdash; reach out directly.</p>
+      <div class="copy-row">
+        <code id="email-text">yourname@email.com</code>
+        <button class="copy-btn" id="copy-email-btn" type="button">Copy email</button>
+      </div>
+      <div class="copy-row">
+        <span class="meta" style="font-family:'Space Mono',monospace;font-size:.78rem;color:var(--muted);">Instagram</span>
+        <code>@yourhandle</code>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 Himanshu Gautam</span>
+    <span><a href="index.html" style="text-decoration:none;color:var(--muted);">&larr; Back to home</a></span>
+  </footer>
+</main>
+
+<script>
+(function(){
+  var btn = document.getElementById('copy-email-btn');
+  var codeEl = document.getElementById('email-text');
+  if(!btn || !codeEl) return;
+  btn.addEventListener('click', function(){
+    var text = codeEl.textContent;
+    var done = function(){
+      var original = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(function(){ btn.textContent = original; }, 1500);
+    };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done, function(){ fallbackCopy(); });
+    } else {
+      fallbackCopy();
+    }
+    function fallbackCopy(){
+      var range = document.createRange();
+      range.selectNode(codeEl);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+      try{ document.execCommand('copy'); done(); }catch(e){}
+      window.getSelection().removeAllRanges();
+    }
+  });
+})();
+</script>
+</body>
+</html>
