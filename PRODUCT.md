@@ -15,7 +15,7 @@ web
 
 ## Product Purpose
 
-A personal portfolio for Himanshu Gautam, an NYC and Bay Area based actor. Its job is to **get him auditions**. Success means a casting director can see his look, credits, and on-camera work, and contact him, without hunting.
+A personal portfolio for Himanshu Gautam, a Brooklyn-based actor. Its job is to **get him auditions**. Success means a casting director can see his look, credits, and on-camera work, and contact him, without hunting.
 
 ## Positioning
 
@@ -37,7 +37,7 @@ A personal portfolio for Himanshu Gautam, an NYC and Bay Area based actor. Its j
 
 ## Brand Commitments
 
-- **Name:** Himanshu Gautam. Based in NYC and the Bay Area.
+- **Name:** Himanshu Gautam. Based in Brooklyn, NY.
 - **Voice:** playful and funny; his comedic personality should come through in the copy (for example "Podcast Ringleader"), while staying credible to casting professionals.
 - **Artist name (music):** Himmy G.
 - **Home headline:** "One actor. Every stage." (chosen by Himanshu).
