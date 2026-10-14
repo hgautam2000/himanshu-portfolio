@@ -19,7 +19,7 @@ A personal portfolio for Himanshu Gautam, a Brooklyn-based actor. Its job is to 
 
 ## Positioning
 
-**Actor first.** Comedy (Desi SNL), the Yappy Yaar podcast, and modeling are supporting evidence of range, presence, and comedic timing, not equal headline identities. He is a recurring cast member of Desi SNL, a sold-out live sketch comedy show for and by South Asian diaspora performers in New York City.
+**Actor first.** Comedy (Desi SNL), music (the comedy rap "Turkey"), the Yappy Yaar podcast, and modeling are supporting evidence of range, presence, and comedic timing, not equal headline identities. He is a recurring cast member of Desi SNL, a sold-out live sketch comedy show for and by South Asian diaspora performers in New York City.
 
 ## Operating Context
 
@@ -45,13 +45,14 @@ A personal portfolio for Himanshu Gautam, a Brooklyn-based actor. Its job is to 
 
 - **Headshots:** `img/headshot-lead.jpg`, `img/headshot-candid.jpg`, and `img/headshot-posed.jpg`. All are the same purple paisley shirt and setup. A new face-forward headshot is planned.
 - **Desi SNL (verified facts on `theater.html`):** recurring cast member. Episode 1 at Balance Arts Center (Nov 13–14, 2025); Episode 2 at The Wild Project (Apr 2026), credited on the site with NYC Fringe Festival "Top Grossing" and "Outstanding Ensemble"; Episode 3 at SoHo Playhouse (Aug 2026). 10 sold-out shows, 1,100+ audience members, 19 original sketches. Created and directed by Azhar Bande-Ali. Official site desisnl.com.
+- **Music:** "Turkey," an original comedy rap released with Desi SNL in September 2025. Himanshu co-wrote it and performs lead vocals and rap. It's on all major streaming platforms (Spotify, Apple Music, Amazon Music, YouTube Music), and there's a full music video at https://www.youtube.com/watch?v=vuq2VtYZVGA. Also on-camera footage, so useful to casting until the demo reel exists.
 - **Film:** *Bindi* on Vimeo (role, director, and year still to be filled in).
 - **Not yet available (do not fabricate):** demo reel, other film credits, modeling photos and specs, podcast episodes and platform links, training credits, bio in his own voice, real email and Instagram, representation, press, and testimonials.
 
 ## Product Principles
 
 1. **Casting director first.** Every page answers "should we bring him in?" fast: face, credits, footage, contact.
-2. **Actor leads; the rest is range.** Comedy, podcast, and modeling support the acting story rather than competing with it.
+2. **Actor leads; the rest is range.** Comedy, music, podcast, and modeling support the acting story rather than competing with it.
 3. **Personality is the differentiator.** Playful copy is allowed and encouraged, as long as it never hides the facts.
 4. **Only real proof.** Nothing placeholder, invented, or dead-linked is shown to visitors. Missing content is hidden until it exists.
 5. **Phone-ready.** It must work on a phone, because links often get opened from DMs and emails.
