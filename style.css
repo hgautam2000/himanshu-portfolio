@@ -370,7 +370,15 @@ p{color:var(--text);}
 }
 
 /* ---- Press review ---- */
+.review + .review{margin-top:44px;padding-top:32px;border-top:1px solid var(--border);}
+.review-episode{
+  font-family:"Bebas Neue", sans-serif;
+  font-size:1.5rem;
+  letter-spacing:.02em;
+  margin:0 0 4px;
+}
 .review .pull-quote{margin:6px 0 8px;}
+div.review-shot{gap:16px;}
 .review-stars{
   margin:0;
   font-size:1.3rem;
