@@ -186,6 +186,11 @@ p{color:var(--text);}
 }
 .stub-divider::before{left:-38px;}
 .stub-divider::after{right:-38px;}
+/* keep the stub circles inside the 20px page gutter once the page is narrower than main */
+@media (max-width:1000px){
+  .stub-divider::before{left:-20px;}
+  .stub-divider::after{right:-20px;}
+}
 
 /* ---- Section ---- */
 .section{padding-block:8px 40px;}
@@ -265,6 +270,35 @@ p{color:var(--text);}
   text-transform:uppercase;
   letter-spacing:.05em;
 }
+
+/* lookbook photo that links out to the product */
+.look{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  text-decoration:none;
+}
+.look img{
+  width:100%;
+  aspect-ratio:2/3;
+  object-fit:cover;
+  border-radius:6px;
+  border:1.5px solid var(--border);
+  display:block;
+  transition:transform .15s ease, border-color .15s ease;
+}
+.look:hover img{
+  transform:translateY(-3px) rotate(-0.4deg);
+  border-color:var(--accent);
+}
+.look-caption{
+  font-family:"Space Mono", monospace;
+  font-size:.7rem;
+  letter-spacing:.04em;
+  color:var(--muted);
+  text-transform:uppercase;
+}
+.look:hover .look-caption{color:var(--pop);}
 
 /* ---- Portraits ---- */
 .portrait{
@@ -418,6 +452,6 @@ footer{
 }
 
 @media (prefers-reduced-motion: reduce){
-  .card{transition:none;}
-  .card:hover{transform:none;}
+  .card, .look img{transition:none;}
+  .card:hover, .look:hover img{transform:none;}
 }
