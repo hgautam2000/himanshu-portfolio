@@ -186,6 +186,11 @@ p{color:var(--text);}
 }
 .stub-divider::before{left:-38px;}
 .stub-divider::after{right:-38px;}
+/* keep the stub circles inside the 20px page gutter once the page is narrower than main */
+@media (max-width:1000px){
+  .stub-divider::before{left:-20px;}
+  .stub-divider::after{right:-20px;}
+}
 
 /* ---- Section ---- */
 .section{padding-block:8px 40px;}
@@ -266,6 +271,35 @@ p{color:var(--text);}
   letter-spacing:.05em;
 }
 
+/* lookbook photo that links out to the product */
+.look{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  text-decoration:none;
+}
+.look img{
+  width:100%;
+  aspect-ratio:2/3;
+  object-fit:cover;
+  border-radius:6px;
+  border:1.5px solid var(--border);
+  display:block;
+  transition:transform .15s ease, border-color .15s ease;
+}
+.look:hover img{
+  transform:translateY(-3px) rotate(-0.4deg);
+  border-color:var(--accent);
+}
+.look-caption{
+  font-family:"Space Mono", monospace;
+  font-size:.7rem;
+  letter-spacing:.04em;
+  color:var(--muted);
+  text-transform:uppercase;
+}
+.look:hover .look-caption{color:var(--pop);}
+
 /* ---- Portraits ---- */
 .portrait{
   width:100%;
@@ -334,6 +368,81 @@ p{color:var(--text);}
   margin:24px 0;
   max-width:56ch;
 }
+
+/* ---- Press review ---- */
+.review + .review{margin-top:44px;padding-top:32px;border-top:1px solid var(--border);}
+.review-episode{
+  font-family:"Bebas Neue", sans-serif;
+  font-size:1.5rem;
+  letter-spacing:.02em;
+  margin:0 0 4px;
+}
+.review .pull-quote{margin:6px 0 8px;}
+div.review-shot{gap:16px;}
+.review-stars{
+  margin:0;
+  font-size:1.3rem;
+  letter-spacing:.12em;
+  color:var(--gold);
+}
+.review-stars span{color:var(--border);}
+.review-source{
+  font-family:"Space Mono", monospace;
+  font-size:.76rem;
+  color:var(--muted);
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  margin:0 0 24px;
+}
+.review-source cite{font-style:normal;color:var(--text);}
+.review-quotes{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+  gap:22px;
+  align-items:start;
+}
+.review-shot{margin:0;display:flex;flex-direction:column;gap:10px;}
+.review-shot img{
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:cover;
+  object-position:center 30%;
+  border-radius:6px;
+  border:1.5px solid var(--border);
+  display:block;
+}
+.review-shot figcaption{
+  font-family:"Space Mono", monospace;
+  font-size:.72rem;
+  letter-spacing:.04em;
+  color:var(--muted);
+  text-transform:uppercase;
+}
+.review-shot figcaption strong{color:var(--pop);font-weight:700;}
+.review-shot blockquote{
+  margin:0;
+  padding-left:14px;
+  border-left:2px solid var(--accent);
+  font-size:.95rem;
+}
+.review-also{margin:22px 0 4px;max-width:60ch;}
+.review-credit{
+  font-family:"Space Mono", monospace;
+  font-size:.7rem;
+  color:var(--muted);
+  margin:0 0 14px;
+}
+.review-link{max-width:260px;padding:14px 18px;}
+.review-shot--tall img{aspect-ratio:2/3;max-width:240px;height:auto;object-position:center;}
+.review-more{
+  margin:36px 0 0;
+  padding-top:24px;
+  border-top:1px solid var(--border);
+  font-size:.95rem;
+  color:var(--muted);
+}
+.review-more cite{font-style:normal;}
+.review-more a{color:var(--pop);}
 
 /* ---- Bio / about ---- */
 .bio-grid{
@@ -418,6 +527,6 @@ footer{
 }
 
 @media (prefers-reduced-motion: reduce){
-  .card{transition:none;}
-  .card:hover{transform:none;}
+  .card, .look img{transition:none;}
+  .card:hover, .look:hover img{transform:none;}
 }
